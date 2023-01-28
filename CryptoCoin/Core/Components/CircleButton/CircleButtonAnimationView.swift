@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CircleButtonAnimationView: View {
     
-    @Binding  var animate: Bool
+    @Binding var animate: Bool
     
     var body: some View {
         Circle()
@@ -23,6 +23,6 @@ struct CircleButtonAnimationView: View {
 
 struct CircleButtonAnimationView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleButtonAnimationView(animate: .constant(false))
+        CircleButtonAnimationView(animate: .constant(true))
     }
 }
