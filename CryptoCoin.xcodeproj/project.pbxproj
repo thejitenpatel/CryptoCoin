@@ -19,6 +19,7 @@
 		96514F6F2984FBB6000B1479 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F6E2984FBB5000B1479 /* CoinRowView.swift */; };
 		96514F712984FBFC000B1479 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F702984FBFC000B1479 /* PreviewProvider.swift */; };
 		96514F73298515ED000B1479 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F72298515ED000B1479 /* Double.swift */; };
+		96514F7529855BFA000B1479 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F7429855BFA000B1479 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		96514F6E2984FBB5000B1479 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		96514F702984FBFC000B1479 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		96514F72298515ED000B1479 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		96514F7429855BFA000B1479 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		96514F5E2984E51F000B1479 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				96514F7429855BFA000B1479 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96514F6F2984FBB6000B1479 /* CoinRowView.swift in Sources */,
+				96514F7529855BFA000B1479 /* HomeViewModel.swift in Sources */,
 				961F171D2984E16200E784A3 /* ContentView.swift in Sources */,
 				96514F602984E53A000B1479 /* HomeView.swift in Sources */,
 				961F171B2984E16200E784A3 /* CryptoCoinApp.swift in Sources */,
