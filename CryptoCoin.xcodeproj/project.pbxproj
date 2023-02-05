@@ -12,6 +12,8 @@
 		961F17222984E16500E784A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961F17212984E16500E784A3 /* Preview Assets.xcassets */; };
 		961F17292984E24100E784A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961F17282984E24000E784A3 /* Assets.xcassets */; };
 		961F172C2984E32500E784A3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F172B2984E32500E784A3 /* Color.swift */; };
+		962EA495298F73FC007176AD /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EA494298F73FC007176AD /* CoinImageViewModel.swift */; };
+		962EA497298F7816007176AD /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EA496298F7816007176AD /* CoinImageView.swift */; };
 		96514F602984E53A000B1479 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F5F2984E53A000B1479 /* HomeView.swift */; };
 		96514F662984E7A8000B1479 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F652984E7A8000B1479 /* CircleButtonView.swift */; };
 		96514F682984EC5F000B1479 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F672984EC5F000B1479 /* CircleButtonAnimationView.swift */; };
@@ -23,7 +25,7 @@
 		96514F772986A361000B1479 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F762986A361000B1479 /* test.swift */; };
 		9670961329879FE60018EA7C /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670961229879FE60018EA7C /* CoinDataService.swift */; };
 		967096162987A5610018EA7C /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967096152987A5610018EA7C /* NetworkingManager.swift */; };
-		967096192987AE330018EA7C /* CoinImgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967096182987AE330018EA7C /* CoinImgeView.swift */; };
+		9670961B2987B0C40018EA7C /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670961A2987B0C40018EA7C /* CoinImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		961F17212984E16500E784A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		961F17282984E24000E784A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Resources/Assets.xcassets; sourceTree = "<group>"; };
 		961F172B2984E32500E784A3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		962EA494298F73FC007176AD /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		962EA496298F7816007176AD /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		96514F5F2984E53A000B1479 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		96514F652984E7A8000B1479 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		96514F672984EC5F000B1479 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
@@ -44,7 +48,7 @@
 		96514F762986A361000B1479 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		9670961229879FE60018EA7C /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		967096152987A5610018EA7C /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
-		967096182987AE330018EA7C /* CoinImgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImgeView.swift; sourceTree = "<group>"; };
+		9670961A2987B0C40018EA7C /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				9670961229879FE60018EA7C /* CoinDataService.swift */,
+				9670961A2987B0C40018EA7C /* CoinImageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -189,7 +194,8 @@
 		967096172987AE120018EA7C /* CoinImage */ = {
 			isa = PBXGroup;
 			children = (
-				967096182987AE330018EA7C /* CoinImgeView.swift */,
+				962EA494298F73FC007176AD /* CoinImageViewModel.swift */,
+				962EA496298F7816007176AD /* CoinImageView.swift */,
 			);
 			path = CoinImage;
 			sourceTree = "<group>";
@@ -266,8 +272,9 @@
 			files = (
 				96514F6F2984FBB6000B1479 /* CoinRowView.swift in Sources */,
 				96514F772986A361000B1479 /* test.swift in Sources */,
-				967096192987AE330018EA7C /* CoinImgeView.swift in Sources */,
+				962EA495298F73FC007176AD /* CoinImageViewModel.swift in Sources */,
 				96514F7529855BFA000B1479 /* HomeViewModel.swift in Sources */,
+				962EA497298F7816007176AD /* CoinImageView.swift in Sources */,
 				961F171D2984E16200E784A3 /* ContentView.swift in Sources */,
 				96514F602984E53A000B1479 /* HomeView.swift in Sources */,
 				9670961329879FE60018EA7C /* CoinDataService.swift in Sources */,
@@ -278,6 +285,7 @@
 				96514F712984FBFC000B1479 /* PreviewProvider.swift in Sources */,
 				96514F73298515ED000B1479 /* Double.swift in Sources */,
 				96514F6B2984F137000B1479 /* CoinModel.swift in Sources */,
+				9670961B2987B0C40018EA7C /* CoinImageService.swift in Sources */,
 				967096162987A5610018EA7C /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
