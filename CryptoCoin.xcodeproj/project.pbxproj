@@ -15,6 +15,8 @@
 		962EA495298F73FC007176AD /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EA494298F73FC007176AD /* CoinImageViewModel.swift */; };
 		962EA497298F7816007176AD /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EA496298F7816007176AD /* CoinImageView.swift */; };
 		962EA499298F79DA007176AD /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EA498298F79DA007176AD /* LocalFileManager.swift */; };
+		962EA49B298F8A2A007176AD /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EA49A298F8A29007176AD /* SearchBarView.swift */; };
+		962EA49D298FEB7E007176AD /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962EA49C298FEB7E007176AD /* UIApplication.swift */; };
 		96514F602984E53A000B1479 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F5F2984E53A000B1479 /* HomeView.swift */; };
 		96514F662984E7A8000B1479 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F652984E7A8000B1479 /* CircleButtonView.swift */; };
 		96514F682984EC5F000B1479 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96514F672984EC5F000B1479 /* CircleButtonAnimationView.swift */; };
@@ -39,6 +41,8 @@
 		962EA494298F73FC007176AD /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		962EA496298F7816007176AD /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		962EA498298F79DA007176AD /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		962EA49A298F8A29007176AD /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		962EA49C298FEB7E007176AD /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		96514F5F2984E53A000B1479 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		96514F652984E7A8000B1479 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		96514F672984EC5F000B1479 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 				961F172B2984E32500E784A3 /* Color.swift */,
 				96514F702984FBFC000B1479 /* PreviewProvider.swift */,
 				96514F72298515ED000B1479 /* Double.swift */,
+				962EA49C298FEB7E007176AD /* UIApplication.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			children = (
 				967096172987AE120018EA7C /* CoinImage */,
 				96514F622984E6FB000B1479 /* CircleButton */,
+				962EA49A298F8A29007176AD /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -281,10 +287,12 @@
 				961F171D2984E16200E784A3 /* ContentView.swift in Sources */,
 				96514F602984E53A000B1479 /* HomeView.swift in Sources */,
 				9670961329879FE60018EA7C /* CoinDataService.swift in Sources */,
+				962EA49D298FEB7E007176AD /* UIApplication.swift in Sources */,
 				961F171B2984E16200E784A3 /* CryptoCoinApp.swift in Sources */,
 				96514F662984E7A8000B1479 /* CircleButtonView.swift in Sources */,
 				961F172C2984E32500E784A3 /* Color.swift in Sources */,
 				962EA499298F79DA007176AD /* LocalFileManager.swift in Sources */,
+				962EA49B298F8A2A007176AD /* SearchBarView.swift in Sources */,
 				96514F682984EC5F000B1479 /* CircleButtonAnimationView.swift in Sources */,
 				96514F712984FBFC000B1479 /* PreviewProvider.swift in Sources */,
 				96514F73298515ED000B1479 /* Double.swift in Sources */,
